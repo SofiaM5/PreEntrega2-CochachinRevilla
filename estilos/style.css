@@ -172,6 +172,7 @@ main{
 .divContacto{
     width: 100%;
     display: flex;
+    flex-direction: row;
     margin-top: 50px;
 }
 
@@ -332,14 +333,89 @@ main{
     .divServicios__x__caja__img{
         width: 100%;
         padding: 0px 0px;
-        
+    }
 
+    
+
+
+    /*CONTACTOS*/
+
+    .divContacto{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50px;
     }
 
     
     
+    .divContacto__a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .divContacto__a img{
+        width: 10%;
+        margin-bottom: 10px;
+    }
+    
 
-    /*CONTACTOS*/
+    .divContacto__b{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+
+        flex-direction: column;
+        
+    }
+
+    .divContacto__b__map{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        
+    }
+
+    .divContacto__b__map__a{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .divContacto__b__form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .divContacto__b__form__a{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .divContacto__b__form__a__box{
+        width: 400px;
+        margin-top: 10px;
+    }
+    
+    .divContacto__b__form__a__btn{
+        width: 100px;
+    }
+    .area{
+        
+        margin-bottom: 20px;
+    }
+
+
+
+
+
     /*NOSOTROS*/
     /*FOOTER GENERAL*/
     footer{

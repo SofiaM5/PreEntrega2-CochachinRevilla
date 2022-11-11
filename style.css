@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial ;
+    
+}
+
+/*header*/
+.divContainer__a{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.divContainer__a__redes{
+    background-color: #fff;
+    height: 40px;
+}
+
+.divContainer__a__redes img{
+    width: 20px;
+    margin: 10px;
+}
+
+.divContainer__a__logo{
+    background-color: #fff;
+    color:   #456134;
+    height: 40px;
+}
+
+.divContainer__a__logo img{
+    width:50px;
+    align-content: center;
+}
+
+.divContainer__a__login{
+    background-color: #fff;
+    height: 40px;
+}
+
+.divContainer__a__login img{
+    width: 25px;
+    margin: 10px;
+}
+
+/*nav*/
+
+.menu{
+    height: 70px;
+    justify-content: center;
+}
+.colornav{
+    background-color: rgb(60, 56, 56);
+}
+
+.letra{
+    width: 500px;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#mcolor{
+    color:white;
+}
+
+#mcolor:hover{
+    color: #456134;
+}
+
+/*carousel*/
+.tamanioCarousel{
+    height: 90vh;
+}
+
+/*BENEFICIOS*/
+.sectionBeneficios__ab__a h2{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.sectionBeneficios{
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50PX;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.sectionBeneficios__ab__a{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.sectionBeneficios__ab{
+    width: 100%;
+    height: 325px;
+    background-color:#fff;
+    display: flex;
+}
+
+.sectionBeneficios__ab__b{
+    background-color: #fff;
+    display: flex;
+}
+
+.sectionBeneficios__ab__b img{
+    width: 50%;
+    height: 240px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.sectionBeneficios__ab__b p{
+    text-align: justify;
+}
+
+.descripcion{
+    margin: 50px 20px ;
+    width: 50%;
+}
+/* title general*/
+main{
+    width: 100%; 
+}
+.divtitle{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.divtitle h2{
+    height: 100%;
+}
+
+/* Servicios */
+
+
+/*footer*/
+.divFooter{
+    background-color: #456134;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.divFooter__redes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divFooter__redes img{ 
+    width: 20px;
+    height: 20px;
+}
+
+.divFooter__logo{
+    color:black;
+    font-weight: bold;
+}
+
+.divFooter__copy{
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+
+
+
+@media (max-width:768px) {
+    /*NAV GENERAL*/
+    .colornav{
+        background-color: #456134;
+    }
+    /*INDEX*/
+    /*CAROUSEL*/
+    .tamanioCarousel{
+        height: 50vh;
+    }
+    /*BENEFICIOS*/
+    .sectionBeneficios{
+        margin-bottom: 0;
+        margin-bottom: 10px;
+        margin-top: 0;
+        margin-top: 20px;
+    }
+    .sectbene{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2px;
+    }
+    
+    
+    .sectionBeneficios__ab__b{
+        height: 50%;
+        align-items: center;
+    }
+    .sectionBeneficios__ab__b img{
+        height: 100%;
+    }
+    .descripcion p{
+        font-size: 12px;
+    }
+    /*SERVICIOS*/
+    
+    
+
+    /*CONTACTOS*/
+    /*NOSOTROS*/
+    /*FOOTER GENERAL*/
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+    .divFooter{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;      
+    }
+    .divFooter__copy{
+        font-size: 12px;
+    }
+    .divFooter__redes__img{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .divFooter__redes p{
+        display: flex;
+        justify-content: center;
+
+    }  
+}
+

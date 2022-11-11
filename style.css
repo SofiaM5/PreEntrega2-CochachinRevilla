@@ -134,12 +134,41 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    
 }
 .divtitle h2{
     height: 100%;
+    font-weight: bold;
 }
 
 /* Servicios */
+.divServicios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 300px;
+    margin-top: 50px;
+}
+
+.divServicios__x{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.divServicios__x__caja{
+    width: 50%;
+    padding: 0px 80px;
+
+}
+
+.divServicios__x__caja__img{
+    width: 400px;
+}
+
+/* Contactos */
+
 
 
 /*footer*/

@@ -169,7 +169,63 @@ main{
 
 /* Contactos */
 
+.divContacto{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
 
+.divContacto__a{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divContacto__a img{
+    width: 6.25%;
+}
+
+
+
+.divContacto__b{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 0px 200px;
+    
+    
+    
+}
+
+.divContacto__b__map{
+    width: 100%;
+    margin-bottom: 40px;
+    
+}
+
+.divContacto__b__form{
+    width: 50%;
+    
+}
+
+.divContacto__b__form__a{
+    display: flex;
+    flex-direction: column;
+}
+
+.divContacto__b__form__a__box{
+    width: 400px;
+}
+
+.divContacto__b__form__a__btn{
+    width: 100px;
+}
+.area{
+    
+    margin-bottom: 20px;
+}
 
 /*footer*/
 .divFooter{
@@ -244,6 +300,41 @@ main{
     }
     /*SERVICIOS*/
     
+    .divServicios{
+        width: 100%;
+        padding: 0px 0px;
+        
+
+    }
+
+    .divServicios__x{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px;
+        
+    }
+
+    .divServicios__x__caja{
+        width: 100%;
+        padding: 0px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        
+
+    }
+
+    .divServicios__x__caja__img{
+        width: 100%;
+        padding: 0px 0px;
+        
+
+    }
+
+    
     
 
     /*CONTACTOS*/
@@ -273,6 +364,6 @@ main{
         display: flex;
         justify-content: center;
 
-    }  
+    } 
 }
 

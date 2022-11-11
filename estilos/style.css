@@ -289,9 +289,14 @@ main{
     
     .colornav{
         margin-top: 10px;
+        margin-bottom: 10px;
         background-color: #456134;
         border-radius: 15px;
         padding: 20px;
+    }
+
+    .k{
+        margin-top: 15px;
     }
 
     .letra{

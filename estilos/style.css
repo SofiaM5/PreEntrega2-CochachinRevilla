@@ -4,7 +4,9 @@
     font-family: Arial ;
     
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 
 /*header*/
 
@@ -163,26 +165,38 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 0px 300px;
-    margin-top: 50px;
+    
 }
 
 .divServicios__x{
-    display: flex;
     width: 100%;
-    margin-bottom: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .divServicios__x__caja{
     width: 50%;
-    padding: 0px 80px;
-
+    height: 100%;
+}
+.desc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.divServicios__x__caja__img{
+
+.divServicios__x__caja img{
     width: 400px;
 }
+
+
 
 /* Contactos */
 
@@ -245,7 +259,26 @@ main{
     margin-bottom: 20px;
 }
 
+
+/* Nosotros */
+
+.contenido{
+    background-color: aqua;
+    width: 100px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
 /*footer*/
+.ssa{
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    
+}
+
 .divFooter{
     background-color: #456134;
     width: 100%;
@@ -255,7 +288,7 @@ main{
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(0, #5f7439 0, #526b37 25%, #456134 50%, #395731 75%, #2f4e2e 100%);
-
+    
 }
 .divFooter__redes{
     width: 100%;
@@ -283,7 +316,7 @@ main{
 
 
 
-@media (max-width:768px) {
+@media (max-width:930px) {
     /*NAV GENERAL*/
 
     
@@ -311,9 +344,9 @@ main{
     }
     /*BENEFICIOS*/
     .sectionBeneficios{
-        margin-bottom: 0;
+        
         margin-bottom: 10px;
-        margin-top: 0;
+        
         margin-top: 20px;
     }
     .sectbene{
